@@ -21,6 +21,6 @@ You may also need to update graffle2img.scpt so that it uses the name of your Gr
 
 Once you have all that set up, you should be able to do:
 
-  make <token>.png
+  make [token].png
 
-Where "<token>" is the token associated with the room you want to plot. If there's too much data, you can go in and edit the .cp file, and do the make again. If you want to re-fetch from the server, you'll need to delete all the associated files ("rm <token>.*") and do a fresh make.
+Where "[token]" is the token associated with the room you want to plot. If there's too much data, you can go in and edit the .cp file, and do the make again. If you want to re-fetch from the server, you'll need to delete all the associated files ("rm [token].*") and do a fresh make.
